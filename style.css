@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+    font-family: 'Changa', sans-serif;
+    color:#000000;
+}
+#our_team{
+     margin-top:10%;
+}
+#our_team h1{
+    font-family: 'Concert One', cursive;
+    font-size:60px;
+    margin-bottom:60px;
+    text-align:center;
+}
+
+.teams{
+    display: flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team_mamber{
+    background-color: #ffffff;
+    margin-left:20px;
+    margin-bottom:50px;
+    width:300px;
+    padding:23px;
+    line-height:20px;
+    color:#554848;
+    position:relative;
+    box-shadow: 5px 5px 15px 2px #000;   
+}
+.team_mamber h2{
+    color:gray;
+    font-size:26px;
+    margin-top:30px;   
+}
+.team_mamber p.role{
+    color:#777777;
+    font-size:14px;
+    text-transform: uppercase;
+    margin: 12px 0;
+
+}
+.team_mamber img{
+    width:85px;
+    margin-top: -100px;
+    border: 8px solid tomato;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
